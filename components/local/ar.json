@@ -2,5 +2,8 @@
   "header": {
     "search": "بحث...",
     "searchPlaceholder": "البحث في الوثائق..."
+  },
+  "common": {
+    "brandName": "Apple"
   }
 }

@@ -2,5 +2,8 @@
   "header": {
     "search": "Search...",
     "searchPlaceholder": "Search documentation..."
+  },
+  "common": {
+    "brandName": "Apple"
   }
 }
