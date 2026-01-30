@@ -103,15 +103,17 @@ export function MobileNav({
               </div>
               <div className="flex flex-col gap-3">
                 {sectionNav.map((group) =>
-                  group.items.map((item) => (
-                    <MobileLink
-                      key={item.href}
-                      href={item.href}
-                      onOpenChange={setOpen}
-                    >
-                      {item.title}
-                    </MobileLink>
-                  ))
+                  group.items
+                    .filter((item) => item.href)
+                    .map((item) => (
+                      <MobileLink
+                        key={item.href}
+                        href={item.href!}
+                        onOpenChange={setOpen}
+                      >
+                        {item.title}
+                      </MobileLink>
+                    ))
                 )}
               </div>
             </div>

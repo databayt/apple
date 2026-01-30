@@ -4,6 +4,17 @@
     "searchPlaceholder": "البحث في الوثائق..."
   },
   "common": {
-    "brandName": "Apple"
+    "brandName": "Apple",
+    "home": "الرئيسية"
+  },
+  "navigation": {
+    "docs": "المستندات",
+    "atoms": "الذرات",
+    "templates": "القوالب",
+    "blocks": "الكتل",
+    "micros": "المايكرو",
+    "vibes": "الأجواء",
+    "menu": "القائمة",
+    "toggleMenu": "تبديل القائمة"
   }
 }

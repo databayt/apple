@@ -4,6 +4,17 @@
     "searchPlaceholder": "Search documentation..."
   },
   "common": {
-    "brandName": "Apple"
+    "brandName": "Apple",
+    "home": "Home"
+  },
+  "navigation": {
+    "docs": "Docs",
+    "atoms": "Atoms",
+    "templates": "Templates",
+    "blocks": "Blocks",
+    "micros": "Micros",
+    "vibes": "Vibes",
+    "menu": "Menu",
+    "toggleMenu": "Toggle Menu"
   }
 }
