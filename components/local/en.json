@@ -1,20 +1,188 @@
 {
-  "header": {
-    "search": "Search...",
-    "searchPlaceholder": "Search documentation..."
+  "metadata": {
+    "title": "Apple",
+    "description": "Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, and expert device support."
   },
   "common": {
-    "brandName": "Apple",
-    "home": "Home"
+    "learnMore": "Learn more",
+    "buy": "Buy",
+    "new": "New",
+    "compare": "Compare",
+    "from": "From",
+    "or": "or",
+    "mo": "mo.",
+    "for": "for",
+    "with": "with",
+    "watchTheFilm": "Watch the film",
+    "watchTheEvent": "Watch the event",
+    "getStarted": "Get started",
+    "tryItFree": "Try it free",
+    "streamNow": "Stream now",
+    "applyNow": "Apply now",
+    "seeWhatYourDeviceIsWorth": "See what your device is worth"
   },
   "navigation": {
-    "docs": "Docs",
-    "atoms": "Atoms",
-    "templates": "Templates",
-    "blocks": "Blocks",
-    "micros": "Micros",
-    "vibes": "Vibes",
-    "menu": "Menu",
-    "toggleMenu": "Toggle Menu"
+    "store": "Store",
+    "mac": "Mac",
+    "ipad": "iPad",
+    "iphone": "iPhone",
+    "watch": "Watch",
+    "vision": "Vision",
+    "airpods": "AirPods",
+    "tvHome": "TV & Home",
+    "entertainment": "Entertainment",
+    "accessories": "Accessories",
+    "support": "Support",
+    "search": "Search apple.com",
+    "bag": "Shopping Bag"
+  },
+  "footer": {
+    "shopAndLearn": "Shop and Learn",
+    "appleWallet": "Apple Wallet",
+    "account": "Account",
+    "entertainment": "Entertainment",
+    "appleStore": "Apple Store",
+    "forBusiness": "For Business",
+    "forEducation": "For Education",
+    "forHealthcare": "For Healthcare",
+    "forGovernment": "For Government",
+    "appleValues": "Apple Values",
+    "aboutApple": "About Apple",
+    "moreWaysToShop": "More ways to shop:",
+    "findAnAppleStore": "Find an Apple Store",
+    "otherRetailer": "other retailer",
+    "nearYou": "near you.",
+    "orCall": "Or call",
+    "copyright": "Copyright",
+    "allRightsReserved": "All rights reserved.",
+    "unitedStates": "United States",
+    "termsOfUse": "Terms of Use",
+    "salesAndRefunds": "Sales and Refunds",
+    "legal": "Legal",
+    "siteMap": "Site Map"
+  },
+  "home": {
+    "iphone16Pro": {
+      "name": "iPhone 16 Pro",
+      "headline": "Hello, Apple Intelligence.",
+      "tagline": "Built for Apple Intelligence."
+    },
+    "iphone16": {
+      "name": "iPhone 16",
+      "headline": "A total powerhouse.",
+      "tagline": "Built for Apple Intelligence."
+    },
+    "macbookPro": {
+      "name": "MacBook Pro",
+      "tagline": "Mind-blowing. Head-turning."
+    },
+    "macbookAir": {
+      "name": "MacBook Air",
+      "tagline": "Lean. Mean. M3 machine."
+    },
+    "watchSeries10": {
+      "name": "Apple Watch Series 10",
+      "tagline": "Thinstant classic."
+    },
+    "ipadPro": {
+      "name": "iPad Pro",
+      "tagline": "Thinpossible."
+    },
+    "ipadAir": {
+      "name": "iPad Air",
+      "tagline": "Two sizes. Icons meet."
+    },
+    "airpodsPro": {
+      "name": "AirPods Pro 2",
+      "tagline": "Hearing aids. Hearing test. Hearing protection."
+    },
+    "airpods4": {
+      "name": "AirPods 4",
+      "tagline": "Iconic. Now iconic."
+    },
+    "visionPro": {
+      "name": "Apple Vision Pro",
+      "tagline": "Welcome to spatial computing."
+    },
+    "tradeIn": {
+      "title": "Apple Trade In",
+      "description": "Get $180-$650 in credit toward iPhone 16 or iPhone 16 Pro when you trade in iPhone 12 or higher."
+    },
+    "appleCard": {
+      "title": "Apple Card",
+      "description": "Get 3% Daily Cash back with Apple Card."
+    },
+    "tvPlus": {
+      "streaming": "Now streaming on Apple TV+",
+      "show": "Silo",
+      "tagline": "The truth will find you."
+    },
+    "fitnessPlus": {
+      "title": "Apple Fitness+",
+      "description": "Something for everyone. From beginner to advanced."
+    }
+  },
+  "products": {
+    "iphone16Pro": {
+      "name": "iPhone 16 Pro",
+      "headline": "Hello, Apple Intelligence.",
+      "appleIntelligence": {
+        "eyebrow": "Apple Intelligence",
+        "headline": "AI for the rest of us.",
+        "description": "Write, summarize, and express yourself in ways you never thought possible. Apple Intelligence understands you and helps you get things done."
+      },
+      "design": {
+        "eyebrow": "Design",
+        "headline": "Titanium. So strong. So light. So Pro.",
+        "description": "iPhone 16 Pro features a Grade 5 titanium design with a refined new microblasted finish. Titanium has one of the best strength-to-weight ratios of any metal, making these our lightest Pro models ever."
+      },
+      "cameraControl": {
+        "eyebrow": "Camera Control",
+        "headline": "Your new favorite button.",
+        "description": "Camera Control gives you an easier way to quickly access camera tools. Simply slide your finger to adjust camera functions like exposure or depth of field, and icons provide haptic feedback."
+      },
+      "camera": {
+        "eyebrow": "Pro Camera System",
+        "headline": "Capture. Action.",
+        "description": "Take unbelievably detailed photos with the 48MP Fusion camera. Shoot in 48MP ultra-wide for incredible landscape shots. And get closer than ever with the 5x Telephoto camera."
+      },
+      "chip": {
+        "eyebrow": "A18 Pro",
+        "headline": "A monster win for gaming.",
+        "description": "A18 Pro is an absolute powerhouse. It enables Apple Intelligence with a faster Neural Engine. And it delivers our best-ever graphics performance for incredibly detailed gaming with console-quality features like ray tracing."
+      },
+      "price": "From $999",
+      "priceNote": "or $41.62/mo. for 24 mo.",
+      "tradeIn": "$180-$650",
+      "tradeInNote": "with Apple Trade In"
+    }
+  },
+  "specs": {
+    "display": "Display",
+    "chip": "Chip",
+    "camera": "Camera",
+    "battery": "Battery",
+    "design": "Design",
+    "size": "Size",
+    "resolution": "Resolution",
+    "proMotion": "ProMotion",
+    "alwaysOnDisplay": "Always-On display",
+    "peakBrightness": "Peak brightness",
+    "processor": "Processor",
+    "cpu": "CPU",
+    "gpu": "GPU",
+    "neuralEngine": "Neural Engine",
+    "main": "Main",
+    "ultraWide": "Ultra Wide",
+    "telephoto": "Telephoto",
+    "front": "Front",
+    "video": "Video",
+    "videoPlayback": "Video playback",
+    "charging": "Charging",
+    "fastCharge": "Fast charge",
+    "material": "Material",
+    "frontGlass": "Front glass",
+    "waterResistance": "Water resistance",
+    "colors": "Colors"
   }
 }

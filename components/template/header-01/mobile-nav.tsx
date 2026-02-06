@@ -23,6 +23,11 @@ const NAV_ITEMS = [
   { href: "/vibes", label: "Vibes" },
 ]
 
+type ExtendedDictionary = Awaited<ReturnType<typeof getDictionary>> & {
+  navigation?: Record<string, string>
+  common?: Record<string, string>
+}
+
 export function MobileNav({
   items = NAV_ITEMS,
   className,
@@ -30,7 +35,7 @@ export function MobileNav({
 }: {
   items?: { href: string; label: string }[]
   className?: string
-  dictionary?: Awaited<ReturnType<typeof getDictionary>>
+  dictionary?: ExtendedDictionary
 }) {
   const [open, setOpen] = React.useState(false)
   const pathname = usePathname()

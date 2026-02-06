@@ -65,14 +65,14 @@ export function CommandMenu({ dictionary, ...props }: CommandMenuProps) {
         onClick={() => setOpen(true)}
         {...props}
       >
-        <h6 className="hidden lg:inline-flex">{dictionary?.header?.searchPlaceholder || "Search documentation..."}</h6>
-        <h6 className="inline-flex lg:hidden">{dictionary?.header?.search || "Search..."}</h6>
+        <h6 className="hidden lg:inline-flex">{(dictionary as unknown as Record<string, Record<string, string>>)?.header?.searchPlaceholder || "Search documentation..."}</h6>
+        <h6 className="inline-flex lg:hidden">{(dictionary as unknown as Record<string, Record<string, string>>)?.header?.search || "Search..."}</h6>
         <kbd className="pointer-events-none absolute right-[0.3rem] top-[0.3rem] hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono opacity-100 sm:flex">
           <small>⌘</small>K
         </kbd>
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder={dictionary?.header?.searchPlaceholder || "Type a command or search..."} />
+        <CommandInput placeholder={(dictionary as unknown as Record<string, Record<string, string>>)?.header?.searchPlaceholder || "Type a command or search..."} />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
           <CommandGroup heading="Links">

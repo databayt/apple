@@ -1,0 +1,1 @@
+export { AppleNewsContent } from "./content"

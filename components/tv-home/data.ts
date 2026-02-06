@@ -1,0 +1,147 @@
+export const heroProducts = [
+  {
+    id: "homepod",
+    name: "HomePod",
+    tagline: "Profound sound.",
+    description: "Room-filling, high-fidelity audio that adapts to wherever it's playing.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/homepod__eam53jjm772a_large.jpg",
+    buyHref: "/shop/buy-homepod/homepod",
+    learnHref: "/homepod",
+    price: "$299",
+    variant: "dark" as const,
+  },
+  {
+    id: "homepod-mini",
+    name: "HomePod mini",
+    tagline: "Surprising sound for its size.",
+    description: "Fill any room with rich 360-degree audio.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/homepod_mini__dh7p9ipcmoae_large.jpg",
+    buyHref: "/shop/buy-homepod/homepod-mini",
+    learnHref: "/homepod-mini",
+    price: "$99",
+    variant: "light" as const,
+  },
+  {
+    id: "apple-tv-4k",
+    name: "Apple TV 4K",
+    tagline: "The Apple experience. Cinematic in every sense.",
+    description: "4K Dolby Vision. Dolby Atmos. A15 Bionic chip.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/apple_tv_4k__b30wcqp0pdle_large.jpg",
+    buyHref: "/shop/buy-tv/apple-tv-4k",
+    learnHref: "/apple-tv-4k",
+    price: "From $129",
+    variant: "light" as const,
+  },
+  {
+    id: "home-app",
+    name: "Home app",
+    tagline: "The foundation for a smarter home.",
+    description: "Control all your smart home accessories in one place.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/homeapp__cpc1k972xys2_large.jpg",
+    learnHref: "/home-app",
+    variant: "light" as const,
+  },
+]
+
+export const smartHomeFeatures = [
+  {
+    title: "Control your home with a tap.",
+    description: "Manage lights, locks, thermostats, cameras, and more - all from your iPhone or iPad.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/control__bk4iw5rrqueu_large.jpg",
+  },
+  {
+    title: "Set the mood in every room.",
+    description: "Create scenes that adjust multiple accessories at once, like 'Good Morning' or 'Movie Time'.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/scenes__fswmxdjy3qui_large.jpg",
+  },
+  {
+    title: "Ask Siri for help.",
+    description: '"Hey Siri, dim the lights." Control your home with just your voice.',
+    image: "https://www.apple.com/v/tv-home/q/images/overview/siri__bcxb5dk1b5pu_large.jpg",
+  },
+  {
+    title: "Security you can count on.",
+    description: "Apple-certified accessories meet high security standards, and your data stays private.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/security__c5g1hl3zb8ia_large.jpg",
+  },
+]
+
+export const accessoryCategories = [
+  {
+    title: "Lighting",
+    description: "Set the scene with smart bulbs and switches.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/accessories_lighting__ghzm3g5gp42a_large.jpg",
+    shopHref: "/shop/accessories/all-accessories/homekit?fh=4a2b%2B4d54",
+  },
+  {
+    title: "Security",
+    description: "Keep an eye on what matters most.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/accessories_security__cpmhyf7cekuq_large.jpg",
+    shopHref: "/shop/accessories/all-accessories/homekit?fh=4a2b%2B4d55",
+  },
+  {
+    title: "Climate",
+    description: "Stay comfortable and save energy.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/accessories_climate__fnxdypetqsyq_large.jpg",
+    shopHref: "/shop/accessories/all-accessories/homekit?fh=4a2b%2B4d53",
+  },
+  {
+    title: "Speakers",
+    description: "Fill every room with music.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/accessories_speakers__d2qz8v0n4dci_large.jpg",
+    shopHref: "/shop/accessories/all-accessories/homekit?fh=4a2b%2B4d52",
+  },
+  {
+    title: "Locks & Entry",
+    description: "Secure your home, unlock with your iPhone.",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/accessories_locks__gh7bmxxgvhyq_large.jpg",
+    shopHref: "/shop/accessories/all-accessories/homekit?fh=4a2b%2B4d56",
+  },
+]
+
+export const entertainmentServices = [
+  {
+    id: "apple-tv-plus",
+    name: "Apple TV+",
+    tagline: "Acclaimed Apple Originals.",
+    description: "Stream award-winning series, films, and more. New stories added every month.",
+    logo: "https://www.apple.com/v/tv-home/q/images/overview/services_tv_plus__f5sxfxyxkdu6_large.png",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/services_tv_plus_silo__ehtrqyj5m0ya_large.jpg",
+    ctaLabel: "Try it free",
+    ctaHref: "/apple-tv-plus",
+    learnHref: "/apple-tv-plus",
+  },
+  {
+    id: "apple-music",
+    name: "Apple Music",
+    tagline: "Over 100 million songs. Zero ads.",
+    description: "Listen to all the music you love, across all your devices.",
+    logo: "https://www.apple.com/v/tv-home/q/images/overview/services_music__dtrscxftv0uq_large.png",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/services_music_hw__c82ezm8lg66a_large.jpg",
+    ctaLabel: "Try it free",
+    ctaHref: "/apple-music",
+    learnHref: "/apple-music",
+  },
+  {
+    id: "apple-arcade",
+    name: "Apple Arcade",
+    tagline: "Get unlimited access to 200+ games.",
+    description: "No ads. No in-app purchases. Play on Apple TV, iPhone, iPad, and Mac.",
+    logo: "https://www.apple.com/v/tv-home/q/images/overview/services_arcade__c9c0y0dgjf4i_large.png",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/services_arcade_hw__cf7w3mtupvki_large.jpg",
+    ctaLabel: "Try it free",
+    ctaHref: "/apple-arcade",
+    learnHref: "/apple-arcade",
+  },
+  {
+    id: "apple-fitness-plus",
+    name: "Fitness+",
+    tagline: "A new way to get motivated.",
+    description: "Studio-style workouts and meditations you can do anywhere.",
+    logo: "https://www.apple.com/v/tv-home/q/images/overview/services_fitness__czsqgbbfb4pe_large.png",
+    image: "https://www.apple.com/v/tv-home/q/images/overview/services_fitness_hw__dxrthukikawi_large.jpg",
+    ctaLabel: "Try it free",
+    ctaHref: "/apple-fitness-plus",
+    learnHref: "/apple-fitness-plus",
+  },
+]

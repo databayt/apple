@@ -1,0 +1,1 @@
+export { AppleArcadeContent } from "./content"

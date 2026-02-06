@@ -1,0 +1,227 @@
+/* Apple Container Styles - Responsive & Reusable */
+
+@layer components {
+  /* Main layout container - use once in layout for global padding control */
+  .layout-container {
+    @apply w-full;
+    padding-left: 1rem; /* 16px mobile */
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .layout-container {
+      padding-left: 1.5rem; /* 24px */
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .layout-container {
+      padding-left: 2rem; /* 32px */
+      padding-right: 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .layout-container {
+      padding-left: 2.5rem; /* 40px */
+      padding-right: 2.5rem;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .layout-container {
+      padding-left: 5.5rem; /* 88px - Apple style edge spacing */
+      padding-right: 5.5rem;
+    }
+  }
+
+  /* Apple's standard content container - 980px max */
+  .container-apple {
+    @apply w-full mx-auto;
+    max-width: 980px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-apple {
+      padding-left: 1.375rem; /* 22px */
+      padding-right: 1.375rem;
+    }
+  }
+
+  /* Apple's wide container - 1200px max */
+  .container-apple-wide {
+    @apply w-full mx-auto;
+    max-width: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-apple-wide {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  /* Apple's extra wide container - 1440px max */
+  .container-apple-xl {
+    @apply w-full mx-auto;
+    max-width: 1440px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-apple-xl {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  /* Section container with Apple's vertical rhythm */
+  .section-apple {
+    @apply w-full mx-auto;
+    max-width: 980px;
+    padding: 3rem 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .section-apple {
+      padding: 5rem 1.375rem;
+    }
+  }
+
+  /* Narrow container for text-focused sections - 692px */
+  .container-apple-narrow {
+    @apply w-full mx-auto;
+    max-width: 692px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Grid section container */
+  .grid-apple {
+    @apply w-full mx-auto grid gap-3;
+    max-width: 1200px;
+    padding-left: 0.375rem; /* 6px - minimal for grid gap alignment */
+    padding-right: 0.375rem;
+  }
+
+  @media (min-width: 768px) {
+    .grid-apple {
+      padding-left: 0.375rem;
+      padding-right: 0.375rem;
+    }
+  }
+
+  /* Card grid with Apple's tight gaps */
+  .cards-apple {
+    @apply w-full grid gap-3;
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
+  }
+
+  @media (min-width: 768px) {
+    .cards-apple {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* Responsive padding utilities - Apple style */
+  .px-apple {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .px-apple {
+      padding-left: 1.375rem;
+      padding-right: 1.375rem;
+    }
+  }
+
+  .px-apple-tight {
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
+  }
+
+  @media (min-width: 768px) {
+    .px-apple-tight {
+      padding-left: 0.375rem;
+      padding-right: 0.375rem;
+    }
+  }
+
+  /* Section vertical spacing - Apple rhythm */
+  .py-apple-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  @media (min-width: 768px) {
+    .py-apple-section {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+  }
+
+  .py-apple-hero {
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    .py-apple-hero {
+      padding-top: 4rem;
+      padding-bottom: 2.5rem;
+    }
+  }
+
+  /* Full bleed utility - breaks out of container */
+  .full-bleed {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: none;
+  }
+
+  /* RTL-aware full bleed */
+  [dir="rtl"] .full-bleed {
+    left: 0;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  /* Apple's text container widths */
+  .text-apple-wide {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-apple-narrow {
+    max-width: 692px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-apple-tight {
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Hide scrollbar utility */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

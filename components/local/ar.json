@@ -1,20 +1,188 @@
 {
-  "header": {
-    "search": "بحث...",
-    "searchPlaceholder": "البحث في الوثائق..."
+  "metadata": {
+    "title": "Apple",
+    "description": "اكتشف عالم Apple المبتكر وتسوق كل شيء من iPhone وiPad وApple Watch وMac وApple TV، بالإضافة إلى الملحقات والترفيه ودعم الأجهزة من الخبراء."
   },
   "common": {
-    "brandName": "Apple",
-    "home": "الرئيسية"
+    "learnMore": "اعرف المزيد",
+    "buy": "اشترِ",
+    "new": "جديد",
+    "compare": "قارن",
+    "from": "من",
+    "or": "أو",
+    "mo": "شهرياً",
+    "for": "لمدة",
+    "with": "مع",
+    "watchTheFilm": "شاهد الفيلم",
+    "watchTheEvent": "شاهد الحدث",
+    "getStarted": "ابدأ الآن",
+    "tryItFree": "جربها مجاناً",
+    "streamNow": "شاهد الآن",
+    "applyNow": "قدم الآن",
+    "seeWhatYourDeviceIsWorth": "اعرف قيمة جهازك"
   },
   "navigation": {
-    "docs": "المستندات",
-    "atoms": "الذرات",
-    "templates": "القوالب",
-    "blocks": "الكتل",
-    "micros": "المايكرو",
-    "vibes": "الأجواء",
-    "menu": "القائمة",
-    "toggleMenu": "تبديل القائمة"
+    "store": "المتجر",
+    "mac": "Mac",
+    "ipad": "iPad",
+    "iphone": "iPhone",
+    "watch": "Watch",
+    "vision": "Vision",
+    "airpods": "AirPods",
+    "tvHome": "TV والمنزل",
+    "entertainment": "الترفيه",
+    "accessories": "الملحقات",
+    "support": "الدعم",
+    "search": "ابحث في apple.com",
+    "bag": "حقيبة التسوق"
+  },
+  "footer": {
+    "shopAndLearn": "تسوق وتعلم",
+    "appleWallet": "محفظة Apple",
+    "account": "الحساب",
+    "entertainment": "الترفيه",
+    "appleStore": "متجر Apple",
+    "forBusiness": "للأعمال",
+    "forEducation": "للتعليم",
+    "forHealthcare": "للرعاية الصحية",
+    "forGovernment": "للحكومة",
+    "appleValues": "قيم Apple",
+    "aboutApple": "عن Apple",
+    "moreWaysToShop": "المزيد من طرق التسوق:",
+    "findAnAppleStore": "ابحث عن متجر Apple",
+    "otherRetailer": "موزع آخر",
+    "nearYou": "بالقرب منك.",
+    "orCall": "أو اتصل على",
+    "copyright": "حقوق النشر",
+    "allRightsReserved": "جميع الحقوق محفوظة.",
+    "unitedStates": "الولايات المتحدة",
+    "termsOfUse": "شروط الاستخدام",
+    "salesAndRefunds": "المبيعات والاسترجاع",
+    "legal": "القانونية",
+    "siteMap": "خريطة الموقع"
+  },
+  "home": {
+    "iphone16Pro": {
+      "name": "iPhone 16 Pro",
+      "headline": "مرحباً بذكاء Apple.",
+      "tagline": "مصمم لذكاء Apple."
+    },
+    "iphone16": {
+      "name": "iPhone 16",
+      "headline": "قوة هائلة.",
+      "tagline": "مصمم لذكاء Apple."
+    },
+    "macbookPro": {
+      "name": "MacBook Pro",
+      "tagline": "مذهل. لافت للأنظار."
+    },
+    "macbookAir": {
+      "name": "MacBook Air",
+      "tagline": "خفيف. قوي. بمعالج M3."
+    },
+    "watchSeries10": {
+      "name": "Apple Watch Series 10",
+      "tagline": "كلاسيكية رقيقة."
+    },
+    "ipadPro": {
+      "name": "iPad Pro",
+      "tagline": "نحافة مستحيلة."
+    },
+    "ipadAir": {
+      "name": "iPad Air",
+      "tagline": "حجمان. أيقونتان."
+    },
+    "airpodsPro": {
+      "name": "AirPods Pro 2",
+      "tagline": "سماعات طبية. اختبار سمع. حماية السمع."
+    },
+    "airpods4": {
+      "name": "AirPods 4",
+      "tagline": "أيقونية. والآن أكثر."
+    },
+    "visionPro": {
+      "name": "Apple Vision Pro",
+      "tagline": "مرحباً بالحوسبة المكانية."
+    },
+    "tradeIn": {
+      "title": "Apple Trade In",
+      "description": "احصل على رصيد من ١٨٠$ إلى ٦٥٠$ عند استبدال iPhone 12 أو أحدث بـ iPhone 16 أو iPhone 16 Pro."
+    },
+    "appleCard": {
+      "title": "Apple Card",
+      "description": "احصل على 3% Daily Cash مع Apple Card."
+    },
+    "tvPlus": {
+      "streaming": "يُعرض الآن على Apple TV+",
+      "show": "Silo",
+      "tagline": "الحقيقة ستجدك."
+    },
+    "fitnessPlus": {
+      "title": "Apple Fitness+",
+      "description": "شيء للجميع. من المبتدئين إلى المتقدمين."
+    }
+  },
+  "products": {
+    "iphone16Pro": {
+      "name": "iPhone 16 Pro",
+      "headline": "مرحباً بذكاء Apple.",
+      "appleIntelligence": {
+        "eyebrow": "ذكاء Apple",
+        "headline": "ذكاء اصطناعي للجميع.",
+        "description": "اكتب ولخص وعبر عن نفسك بطرق لم تكن تتخيلها. ذكاء Apple يفهمك ويساعدك على إنجاز المهام."
+      },
+      "design": {
+        "eyebrow": "التصميم",
+        "headline": "تيتانيوم. قوي جداً. خفيف جداً. احترافي جداً.",
+        "description": "يتميز iPhone 16 Pro بتصميم من التيتانيوم الدرجة 5 مع لمسة نهائية جديدة مصقولة. يتمتع التيتانيوم بأفضل نسبة قوة إلى وزن، مما يجعل هذه أخف موديلات Pro لدينا على الإطلاق."
+      },
+      "cameraControl": {
+        "eyebrow": "التحكم بالكاميرا",
+        "headline": "زرك المفضل الجديد.",
+        "description": "يمنحك التحكم بالكاميرا طريقة أسهل للوصول السريع إلى أدوات الكاميرا. ما عليك سوى تمرير إصبعك لضبط وظائف الكاميرا مثل التعريض أو عمق الميدان."
+      },
+      "camera": {
+        "eyebrow": "نظام الكاميرا الاحترافي",
+        "headline": "التقط. حركة.",
+        "description": "التقط صوراً مفصلة بشكل لا يصدق بكاميرا Fusion بدقة 48 ميجابكسل. صور بدقة 48 ميجابكسل فائقة الاتساع للحصول على لقطات مناظر طبيعية مذهلة."
+      },
+      "chip": {
+        "eyebrow": "A18 Pro",
+        "headline": "فوز كبير للألعاب.",
+        "description": "A18 Pro هو قوة هائلة. يمكّن ذكاء Apple من خلال Neural Engine أسرع. ويقدم أفضل أداء رسومات لدينا على الإطلاق للألعاب المفصلة بشكل لا يصدق."
+      },
+      "price": "يبدأ من ٩٩٩$",
+      "priceNote": "أو ٤١.٦٢$ شهرياً لمدة ٢٤ شهراً",
+      "tradeIn": "١٨٠$ - ٦٥٠$",
+      "tradeInNote": "مع Apple Trade In"
+    }
+  },
+  "specs": {
+    "display": "الشاشة",
+    "chip": "المعالج",
+    "camera": "الكاميرا",
+    "battery": "البطارية",
+    "design": "التصميم",
+    "size": "الحجم",
+    "resolution": "الدقة",
+    "proMotion": "ProMotion",
+    "alwaysOnDisplay": "شاشة مضاءة دائماً",
+    "peakBrightness": "ذروة السطوع",
+    "processor": "المعالج",
+    "cpu": "وحدة المعالجة المركزية",
+    "gpu": "وحدة معالجة الرسومات",
+    "neuralEngine": "محرك Neural",
+    "main": "الرئيسية",
+    "ultraWide": "فائقة الاتساع",
+    "telephoto": "المقربة",
+    "front": "الأمامية",
+    "video": "الفيديو",
+    "videoPlayback": "تشغيل الفيديو",
+    "charging": "الشحن",
+    "fastCharge": "الشحن السريع",
+    "material": "المادة",
+    "frontGlass": "الزجاج الأمامي",
+    "waterResistance": "مقاومة الماء",
+    "colors": "الألوان"
   }
 }
