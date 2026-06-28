@@ -19,7 +19,14 @@
     "tryItFree": "جربها مجاناً",
     "streamNow": "شاهد الآن",
     "applyNow": "قدم الآن",
-    "seeWhatYourDeviceIsWorth": "اعرف قيمة جهازك"
+    "seeWhatYourDeviceIsWorth": "اعرف قيمة جهازك",
+    "shop": "تسوّق",
+    "shopIphone": "تسوّق iPhone",
+    "getYourEstimate": "احصل على تقديرك",
+    "playNow": "العب الآن",
+    "listenNow": "استمع الآن",
+    "watchNow": "شاهد الآن",
+    "seeTheSchedule": "اطّلع على الجدول"
   },
   "navigation": {
     "store": "المتجر",
@@ -62,64 +69,44 @@
     "siteMap": "خريطة الموقع"
   },
   "home": {
-    "iphone16Pro": {
-      "name": "iPhone 16 Pro",
-      "headline": "مرحباً بذكاء Apple.",
-      "tagline": "مصمم لذكاء Apple."
+    "iphone17Pro": {
+      "headline": "iPhone 17 Pro",
+      "subhead": "كلّه Pro."
     },
-    "iphone16": {
-      "name": "iPhone 16",
-      "headline": "قوة هائلة.",
-      "tagline": "مصمم لذكاء Apple."
-    },
-    "macbookPro": {
-      "name": "MacBook Pro",
-      "tagline": "مذهل. لافت للأنظار."
+    "iphone17": {
+      "headline": "iPhone 17",
+      "subhead": "ألوان ساحرة."
     },
     "macbookAir": {
-      "name": "MacBook Air",
-      "tagline": "خفيف. قوي. بمعالج M3."
-    },
-    "watchSeries10": {
-      "name": "Apple Watch Series 10",
-      "tagline": "كلاسيكية رقيقة."
-    },
-    "ipadPro": {
-      "name": "iPad Pro",
-      "tagline": "نحافة مستحيلة."
+      "headline": "MacBook Air",
+      "subhead": "الآن بأداء فائق مع M5."
     },
     "ipadAir": {
-      "name": "iPad Air",
-      "tagline": "حجمان. أيقونتان."
+      "headline": "iPad Air",
+      "subhead": "الآن بأداء فائق مع M4."
     },
-    "airpodsPro": {
-      "name": "AirPods Pro 2",
-      "tagline": "سماعات طبية. اختبار سمع. حماية السمع."
+    "macbookPro": {
+      "headline": "MacBook Pro",
+      "subhead": "الآن مع M5 وM5 Pro وM5 Max."
     },
-    "airpods4": {
-      "name": "AirPods 4",
-      "tagline": "أيقونية. والآن أكثر."
+    "airpodsPro3": {
+      "headline": "AirPods Pro 3",
+      "subhead": "ميزة إلغاء الضجيج النشط الأفضل في العالم لتصميم داخل الأذن."
     },
-    "visionPro": {
-      "name": "Apple Vision Pro",
-      "tagline": "مرحباً بالحوسبة المكانية."
+    "appleWatchSeries11": {
+      "headline": "Watch",
+      "subhead": "الطريقة الأفضل لمراقبة صحتك."
     },
     "tradeIn": {
-      "title": "Apple Trade In",
-      "description": "احصل على رصيد من ١٨٠$ إلى ٦٥٠$ عند استبدال iPhone 12 أو أحدث بـ iPhone 16 أو iPhone 16 Pro."
+      "headline": "الاستبدال",
+      "subhead": "احصل على رصيد يصل إلى ١٩٥$–٦٩٥$ عند استبدال iPhone 13 أو أحدث."
     },
     "appleCard": {
-      "title": "Apple Card",
-      "description": "احصل على 3% Daily Cash مع Apple Card."
+      "headline": "Card",
+      "subhead": "احصل على ما يصل إلى 3% Daily Cash مع كل عملية شراء."
     },
-    "tvPlus": {
-      "streaming": "يُعرض الآن على Apple TV+",
-      "show": "Silo",
-      "tagline": "الحقيقة ستجدك."
-    },
-    "fitnessPlus": {
-      "title": "Apple Fitness+",
-      "description": "شيء للجميع. من المبتدئين إلى المتقدمين."
+    "entertainment": {
+      "headline": "ترفيه لا حدود له."
     }
   },
   "products": {

@@ -19,7 +19,14 @@
     "tryItFree": "Try it free",
     "streamNow": "Stream now",
     "applyNow": "Apply now",
-    "seeWhatYourDeviceIsWorth": "See what your device is worth"
+    "seeWhatYourDeviceIsWorth": "See what your device is worth",
+    "shop": "Shop",
+    "shopIphone": "Shop iPhone",
+    "getYourEstimate": "Get your estimate",
+    "playNow": "Play now",
+    "listenNow": "Listen now",
+    "watchNow": "Watch now",
+    "seeTheSchedule": "See the schedule"
   },
   "navigation": {
     "store": "Store",
@@ -62,64 +69,44 @@
     "siteMap": "Site Map"
   },
   "home": {
-    "iphone16Pro": {
-      "name": "iPhone 16 Pro",
-      "headline": "Hello, Apple Intelligence.",
-      "tagline": "Built for Apple Intelligence."
+    "iphone17Pro": {
+      "headline": "iPhone 17 Pro",
+      "subhead": "All out Pro."
     },
-    "iphone16": {
-      "name": "iPhone 16",
-      "headline": "A total powerhouse.",
-      "tagline": "Built for Apple Intelligence."
-    },
-    "macbookPro": {
-      "name": "MacBook Pro",
-      "tagline": "Mind-blowing. Head-turning."
+    "iphone17": {
+      "headline": "iPhone 17",
+      "subhead": "Magichromatic."
     },
     "macbookAir": {
-      "name": "MacBook Air",
-      "tagline": "Lean. Mean. M3 machine."
-    },
-    "watchSeries10": {
-      "name": "Apple Watch Series 10",
-      "tagline": "Thinstant classic."
-    },
-    "ipadPro": {
-      "name": "iPad Pro",
-      "tagline": "Thinpossible."
+      "headline": "MacBook Air",
+      "subhead": "Now supercharged by M5."
     },
     "ipadAir": {
-      "name": "iPad Air",
-      "tagline": "Two sizes. Icons meet."
+      "headline": "iPad Air",
+      "subhead": "Now supercharged by M4."
     },
-    "airpodsPro": {
-      "name": "AirPods Pro 2",
-      "tagline": "Hearing aids. Hearing test. Hearing protection."
+    "macbookPro": {
+      "headline": "MacBook Pro",
+      "subhead": "Now with M5, M5 Pro, and M5 Max."
     },
-    "airpods4": {
-      "name": "AirPods 4",
-      "tagline": "Iconic. Now iconic."
+    "airpodsPro3": {
+      "headline": "AirPods Pro 3",
+      "subhead": "The world’s best in-ear Active Noise Cancellation."
     },
-    "visionPro": {
-      "name": "Apple Vision Pro",
-      "tagline": "Welcome to spatial computing."
+    "appleWatchSeries11": {
+      "headline": "Watch",
+      "subhead": "The ultimate way to watch your health."
     },
     "tradeIn": {
-      "title": "Apple Trade In",
-      "description": "Get $180-$650 in credit toward iPhone 16 or iPhone 16 Pro when you trade in iPhone 12 or higher."
+      "headline": "Trade In",
+      "subhead": "Get up to $195–$695 in credit when you trade in iPhone 13 or higher."
     },
     "appleCard": {
-      "title": "Apple Card",
-      "description": "Get 3% Daily Cash back with Apple Card."
+      "headline": "Card",
+      "subhead": "Get up to 3% Daily Cash back with every purchase."
     },
-    "tvPlus": {
-      "streaming": "Now streaming on Apple TV+",
-      "show": "Silo",
-      "tagline": "The truth will find you."
-    },
-    "fitnessPlus": {
-      "title": "Apple Fitness+",
-      "description": "Something for everyone. From beginner to advanced."
+    "entertainment": {
+      "headline": "Endless entertainment."
     }
   },
   "products": {
