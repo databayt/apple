@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "apple",
+  "compatibility_date": "2026-09-20",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "main": "vinext/server/fetch-handler",
+  "assets": {
+    "directory": "dist/client",
+    "not_found_handling": "none",
+    "binding": "ASSETS"
+  },
+  // apple.databayt.org — the Project card on databayt.org. custom_domain lets Cloudflare
+  // own the hostname's DNS record (it was a dead CNAME to Vercel).
+  "routes": [
+    { "pattern": "apple.databayt.org", "custom_domain": true }
+  ]
+}

@@ -40,3 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env*.local
+
+# clone skill scratch (never committed)
+.clone/
+/dist/
+.vinext/
+.wrangler/
